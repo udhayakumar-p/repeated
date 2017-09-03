@@ -6,7 +6,7 @@ public class vowelsremove
     {
         Scanner s=new Scanner(System.in);
       String st=s.nextLine();
-      String str="[aeiou]";
+      String str="[aeiouAEIOU]";
       String str2=st.replaceAll(str,"");
        System.out.print(str2);
     }
